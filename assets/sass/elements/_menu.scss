@@ -223,26 +223,24 @@
 .menu-top-info {
 	padding: $margin-sm $grid-gutter;
 	position: relative;
-	// 768
-		@include responsive(sm) {
-			padding-top: $margin-md;
-			padding-bottom: $margin-md;
-		}
 }
 
 .menu-top-info-sub {
 	font-weight: $font-weight-light;
 	padding: $margin-sm $grid-gutter;
 	position: relative;
-	// 768
-		@include responsive(sm) {
-			padding-top: $margin-md;
-		}
 }
 
-.menu-top-user {
+.menu-top-avatar {
 	align-items: center;
 	display: flex;
+}
+.menu-top-user {
+	display: block;
+	font-weight: $font-weight-medium;
+}
+.menu-top-email {
+	font-size: $font-size-h6;
 }
 
 @mixin nav-drawer() {
